@@ -1,14 +1,69 @@
-table {
-    border-collapse: collapse;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    background-image: url('/mnt/data/A_black_background_with_a_white_silhouette_of_a_bi.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    position: fixed; /* ヘッダーを最上部に固定 */
+    top: 0;
+    left: 0;
     width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* 背景と調和させる半透明の黒 */
+    padding: 10px 0;
+    z-index: 1000;
 }
 
-th, td {
-    border: 1px solid rgb(32, 42, 111);
-    padding: 30px;
-    text-align: center;
+h1 {
+    font-size: 3em;
+    color: white;
+    margin: 0;
 }
 
-p{
-    text-align: center;
+.nest {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px; /* タイトルが上にあるため余白を調整 */
+}
+
+.eggs {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.egg {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #fff;
+    transition: transform 0.3s ease;
+}
+
+.egg:hover {
+    transform: translateY(-10px);
 }

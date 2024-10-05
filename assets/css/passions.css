@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5; /* 明るい灰色 */
+    background-color: #f8f0ff; /* 薄い紫 */
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #a9a9a9; /* 灰色 */
+    background-color: #e6e6fa; /* 薄い紫 */
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -18,7 +18,7 @@ h1 {
     font-size: 2.5em;
 }
 
-.blog-post {
+.hobby {
     margin: 20px;
     padding: 20px;
     background-color: #fff;
@@ -26,15 +26,17 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    color: #a9a9a9; /* 灰色 */
-    font-size: 1.8em;
-    margin-top: 0;
+.hobby-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
 }
 
-.date {
-    font-size: 0.9em;
-    color: #808080; /* ダークグレー */
+h2 {
+    color: #9370db; /* 濃い紫で見出しを強調 */
+    font-size: 1.8em;
+    margin-top: 0;
 }
 
 p {
@@ -49,7 +51,7 @@ footer {
 }
 
 a {
-    color: #a9a9a9;
+    color: #9370db;
     text-decoration: none;
 }
 
