@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nest {
+    margin-top: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+.nest img {
+    width: 300px;
+    height: auto;
+}
+
+.eggs {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 10px;
+}
+
+.egg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ffe5b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #b5651d;
+    transition: background-color 0.3s ease;
+}
+
+.egg:hover {
+    background-color: #ffcc99;
+}
