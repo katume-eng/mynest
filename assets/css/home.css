@@ -33,14 +33,14 @@ h1 {
 
 .nest {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    max-width: 600px; /* 最大幅を設定して整列を維持 */
     display: flex;
+    flex-wrap: wrap; /* ボタンを複数列に並べる */
+    gap: 50px; /* ボタン間の余白を調整 */
     justify-content: center;
-    align-items: center;
-    margin-top: 100px; /* タイトルが上にあるため余白を調整 */
+    margin-top: 100px; /* タイトルが上にあるため余白を追加 */
 }
-
 .eggs {
     position: relative;
     display: flex;
@@ -50,14 +50,14 @@ h1 {
 }
 
 .egg {
-    width: 80px;
-    height: 80px;
+    width: 200px; /* ボタンの幅を大きくする */
+    height: 210px; /* ボタンの高さを大きくする */
     background-color: #fff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
+    font-size: 30px; /* テキストサイズも少し大きくする */
     text-decoration: none;
     color: #000;
     border: 2px solid #fff;

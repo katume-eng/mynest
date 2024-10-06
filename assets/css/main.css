@@ -1,0 +1,19 @@
+/* Google FontsからPoppinsをインポート */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* 全ページ共通のスタイル */
+body {
+    font-family: 'Poppins', sans-serif; /* フォントをPoppinsに変更 */
+    background-color: #000000; /* 背景: 灰色 */
+    color: #f0f0f0; /* テキスト: 明るい灰色 */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #87ceeb; /* リンク: 水色 */
+}
+
+a:hover {
+    text-decoration: underline;
+}
